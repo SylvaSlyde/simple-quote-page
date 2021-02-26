@@ -41,8 +41,31 @@ img{
    left: 50%;
    transform: translate(-50%, -50%);
    text-align: center;
-   font-family: :"Crimson Text', serif;
-   front-size: 1.5rem;
-   font-style:italic;
+   font-family: "Crimson Text', serif;
+   front-size:1.5rem;
+   font-style: italic;
+}
+/*language choose*/
+nav {
+  width: 90%;
+  position: absolute;
+  top: 5%;
+  margin: auto;
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+}
+
+a {
+  display: inline-block;
+  padding: 0.5rem 1.5rem; 
+  background-color: goldenrod;
+  color: black;
+  border-radius:40%;
+  font-size: 15px;
+  margin:15px;
+  font-family:'Crimson Text' , sans-serif;
+  font-style: italic;
+  font-size: 15px;
 }
 
